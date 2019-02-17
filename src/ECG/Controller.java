@@ -1,4 +1,4 @@
-package sample;
+package ECG;
 
 import javafx.application.Platform;
 import javafx.beans.value.ChangeListener;
