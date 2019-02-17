@@ -1,0 +1,5 @@
+.thick-chart .chart-series-line {
+    -fx-stroke-width: 1px;
+    -fx-stroke: rgb(25, 58, 149);
+}
+
