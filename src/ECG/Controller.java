@@ -229,11 +229,6 @@ public class Controller {
             System.out.println("SerialPortException: " + ex.toString());
         }
 
-
-
-
-
-
     }
 
 
