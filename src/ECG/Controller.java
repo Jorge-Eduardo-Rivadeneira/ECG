@@ -58,7 +58,6 @@ public class Controller {
     @FXML
     LineChart<Number, Number> line_Chart;
 
-
     @FXML
     void connectClick(ActionEvent event) {
         disconnected=true;
@@ -84,7 +83,6 @@ public class Controller {
             alert.showAndWait(); }
 
         else {
-
             if (disconnected==true){
                 disconnected = false;
                 try {
@@ -101,13 +99,8 @@ public class Controller {
             btnConnect.setDisable(true);
             btnRefresh.setDisable(true);
             btnDisconnect.setDisable(false);
-
-
         }
     }
-
-
-
 
     @FXML
     void disconnectClick(ActionEvent event) {
@@ -120,11 +113,7 @@ public class Controller {
         btnConnect.setDisable(false);
         btnDisconnect.setDisable(true);
         btnRefresh.setDisable(false);
-
-
-
     }
-
     @FXML
     void quitClick(ActionEvent event) {
         if(disconnected==true){
@@ -231,7 +220,6 @@ public class Controller {
 
     }
 
-
     public void disconnectArduino(){
 
         if(arduinoPort != null){
@@ -255,9 +243,7 @@ public class Controller {
             }
         }
     }
-
-
-
+    
     public void shiftSeriesData(float newValue)
     {
         for(int i=0; i<NUM_OF_POINT-1; i++){
