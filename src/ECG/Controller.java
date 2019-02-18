@@ -1,3 +1,4 @@
+//Controller.java
 package ECG;
 
 import javafx.application.Platform;
@@ -243,7 +244,7 @@ public class Controller {
             }
         }
     }
-    
+
     public void shiftSeriesData(float newValue)
     {
         for(int i=0; i<NUM_OF_POINT-1; i++){
